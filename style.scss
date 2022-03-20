@@ -1,4 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+$BrightOrange: hsl(31, 77%, 52%);
+$DarkCyan: hsl(184, 100%, 22%);
+$VeryDarkCyan: hsl(179, 100%, 13%);
+
+$TransparentWhite: hsla(0, 0%, 100%, 0.75);
+$VeryLightGray: hsl(0, 0%, 95%);
+
+$BigShoulders: "Big Shoulders Display", sans-serif;
+$Deca: "Lexend Deca", sans-serif;
+
+.attribution {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
 body {
+  position: relative;
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -7,4 +26,40 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: $BigShoulders;
+}
+
+.sedan-card {
+  background-color: $BrightOrange;
+  width: 16rem;
+  margin: 0 auto;
+  padding: 3rem;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  margin-top: 10rem;
+
+  h1 {
+    text-transform: uppercase;
+    color: $VeryLightGray;
+    font-size: 3rem;
+  }
+
+  p {
+    color: $TransparentWhite;
+    line-height: 1.7;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-family: $Deca;
+  }
+
+  .sedan-btn {
+    background-color: $VeryLightGray;
+    display: inline-block;
+    padding: 0.7rem 1.7rem;
+    border-radius: 100px;
+    color: $BrightOrange;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    font-family: $Deca;
+  }
 }

@@ -1,4 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+.attribution {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
 body {
+  position: relative;
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -7,4 +15,37 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Big Shoulders Display", sans-serif;
+}
+
+.sedan-card {
+  background-color: #e38826;
+  width: 16rem;
+  margin: 0 auto;
+  padding: 3rem;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  margin-top: 10rem;
+}
+.sedan-card h1 {
+  text-transform: uppercase;
+  color: #f2f2f2;
+  font-size: 3rem;
+}
+.sedan-card p {
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.7;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-family: "Lexend Deca", sans-serif;
+}
+.sedan-card .sedan-btn {
+  background-color: #f2f2f2;
+  display: inline-block;
+  padding: 0.7rem 1.7rem;
+  border-radius: 100px;
+  color: #e38826;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  font-family: "Lexend Deca", sans-serif;
 }/*# sourceMappingURL=style.css.map */
